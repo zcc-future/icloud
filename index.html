@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="remainder">
+<head>
+	<meta charset="UTF-8">
+	<title>iclond</title>
+	<link rel="stylesheet" href="./css/index.css">
+	<script src="http://cdn.bootcss.com/angular.js/1.5.8/angular.js"></script>
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body ng-controller="mainCtrol">
+	<div class="body">
+		<div class="body-left">
+			<div class="left-head">
+				<div class="remind">
+					<div class="remind-inner">
+						<label class="tixing">提醒事项</label>
+						<div class="iclond"></div>
+						<div class="xiala"></div>
+					</div>
+					<div class="add" ng-click="addlist();save()">
+						<div class="add-img"></div>
+				    </div>
+				</div>
+			</div>
+			<div class="left-body">
+				<div class="list">
+					<div class="plan" ng-click="chbg($event)">
+						<div class="plan-inner">
+							<div class="clock"></div>
+							<label >已计划</label>
+						</div>
+						<div class="row-top"></div>
+						<div class="row-bottom"></div>
+					</div>
+					<div ng-x>
+						<div class="list1" ng-repeat="v in Lists track by $index" ng-class="{active:cu==index}">
+							<div class="list1-inner">
+								<div class="list1-neirong">
+									<div class="color {{v.theme}}"></div>
+									<div class="title">{{v.name}}</div>
+									<input type="text" ng-model="v.name" ng-keyup="save()">
+									<div class="wifi"></div>
+								</div>
+								<div class="row-top"></div>
+						        <div class="row-bottom"></div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		<div class="body-right">
+			<div class="search">
+				<div class="search-left">
+					<div class="padding">
+						<div class="padding-zi">搜素所有提醒</div>
+						<input type="text" class="sou">
+					</div>
+					<div class="logo">
+						<div class="logo-img"></div>
+					</div>
+				</div>
+				<div class="search-right">
+					<div class="user">
+						<label >zcc</label>
+						<div class="xiala"></div>
+					</div>
+					<div class="shuxian"></div>
+					<div class="help">
+						<div class="img"></div>
+					</div>
+				</div>
+			</div>
+			<div class="content {{Lists[cu].theme}}">
+				<div class="content-inner">
+					<div class="cont-title">
+						<div class="list-name {{Lists[cu].theme}}">{{Lists[cu].name}}</div>
+						<div sel>
+							<label >选项</label>
+						</div>	
+					</div>
+					<div class="content-body">
+						<div class="hengxian"></div>
+						<div class="limian">
+							<div class="xianshi">
+								<div class="complete">
+									<div class="background"></div>
+									<div class="yiwancheng">已完成：{{count()}}项</div>
+									<div class="button">
+										<div class="img"></div>
+									</div>
+									<div class="clear">
+										<label >清除已完成事项</label>
+									</div>
+									<div class="xian">
+										<div class="xian-img"></div>
+									</div>
+									<div xiangqing>
+										<div class="xiangqing">
+										<div class="line1-box">
+										    <div class="date">
+											    <label>2016年11月17日 星期四</label>
+											    <div class="xian-top"></div>
+										    </div>
+										    <div class="line1-list" >
+												<div class="line1" ng-repeat="v in Lists[cu].todos track by $index" ng-if="v.state==1" ng-click="save()">
+													<div class="xian-top1"></div>
+													<div class="xian-bottom"></div>
+													<div class="xian-bottom1"></div>
+													<div class="bgcolor"></div>
+													<div class="xian-li">
+														<a href="#" ng-click="v.state=0">
+															<div class="state state1 {{Lists[cu].theme}}"></div>
+														</a>
+														<label></label>
+														<input type="text" class="input1 inpu {{Lists[cu].theme}}" ng-model="v.name">
+														<div class="hidden">
+															<label></label>
+														</div>
+														<div class="mes">
+															<label >详细信息</label>
+														</div>
+													</div>
+												</div>
+	                                        </div>
+									    </div>
+									    <div class="kongbai"></div>
+									    <div class="line2-box">
+									    	<div class="line1-list">
+												<div class="line1" ng-repeat="v in Lists[cu].todos track by $index" ng-if="v.state==0">
+													<!-- <div class="xian-top" id="one"></div> -->
+													<div class="xian-top1"></div>
+													<div class="xian-bottom"></div>
+													<div class="xian-bottom1"></div>
+													<div class="bgcolor"></div>
+													<div class="xian-li" ng-click="save()">
+														<a href="#" ng-click="v.state=1">
+															<div class="state state2 {{Lists[cu].theme}}"></div>
+														</a>
+														<label></label>
+														<input type="text" class="input2 inpu {{Lists[cu].theme}} inputt" ng-model="v.name">
+														<div class="hidden">
+															<label>{{v.name}}</label>
+														</div>
+														<div class="mes">
+															<label >详细信息</label>
+														</div>
+													</div>
+												</div>
+	                                        </div>
+									    </div>
+									    <div class="new-box">
+		                                    <div class="new-ul">
+												<div class="new" ng-click="addtodos()">
+													<!-- <div class="xian-top"></div> -->
+													<div class="xian-bottom"></div>
+													<label class="xian-nei"></label>
+													<input type="text" class="input3 {{Lists[cu].theme}}"  placeholder="新项目..." ng-model="value">
+												</div>
+											</div>
+                                        </div>
+                                    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 选项 -->
+	<div class="xuanxiang">
+		<div class="jian"></div>
+		<div class="inner">
+			<div class="neili">
+				<div class="biaomin">
+					<div class="border"></div>
+					<div class="padding">
+						<input type="text" ng-model="Lists[cu].name" class="{{Lists[cu].theme}}" >
+					</div>
+				</div>
+				<div class="list-color">列表颜色</div>
+				<div class="color-ji" >
+					<div class="circle {{Lists[cu].theme==v?v:''}}" ng-repeat="v in colors" ng-click="Lists[cu].theme=v;save()">
+						<div class="in-color {{v}}"></div>
+					</div>
+				</div>
+				<div class="caozuo">
+					<div class="delete" ng-click="remove($index);save()">删除</div>
+					<div class="quxiao">
+						<div class="qu">取消</div>
+					</div>
+					<span>
+						<span></span>
+					</span>
+					<div class="wan">完成</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 详细信息 -->
+	<!--<div class="xiangxi-box">
+		<div class="sanjiao"></div>
+		<div class="inner">
+			<div class="xx">详细信息</div>
+			<div class="xiang">
+				<div class="lie-biao">列表</div>
+				<div class="youxian">优先级</div>
+				<div class="xiakuang xia1">
+					<label >新列表</label>
+				</div>
+				<div class="xiakuang xia2">
+					<label >无</label>
+				</div>
+				<div class="beiwang">备注（可选）</div>
+			</div>
+			<div class="zuihou">
+				<div class="shan" ng-click="shanchu($index);save()">删除</div>
+				<div class="cheng">完成</div>
+			</div>
+		</div>
+	</div>-->
+	<!-- 遮罩 -->
+	<div class="zhezhao"></div>
+	<!-- 清除已完成 -->
+	<div class="clearall">
+		<div class="inner">
+			<div class="tu"></div>
+			<div class="tishi">是否清除所有已完成提醒？</div>
+			<div class="jinyibu">所有已完成的提醒事项将永久删除。您不能撤销此操作。</div>
+			<div class="shifou">
+				<div class="remove">取消</div>
+				<div class="qingwan" ng-click="clear()">清除已完成事项</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

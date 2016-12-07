@@ -1,0 +1,1431 @@
+body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea, dl, dt, dd, span {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  background: #fff;
+  overflow: hidden; }
+
+* {
+  font-family: "Microsoft YaHei",sans-serif;
+  box-sizing: border-box; }
+
+.circle.purple {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat; }
+
+.circle.green {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -33px;
+  background-repeat: no-repeat; }
+
+.circle.blue {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -66px;
+  background-repeat: no-repeat; }
+
+.circle.yellow {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -99px;
+  background-repeat: no-repeat; }
+
+.circle.brown {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -132px;
+  background-repeat: no-repeat; }
+
+.circle.red {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -165px;
+  background-repeat: no-repeat; }
+
+.circle.orange {
+  background-image: url(../img/stylesheet-1.png);
+  background-position: 0px -198px;
+  background-repeat: no-repeat; }
+
+.color.purple {
+  background-position: -34px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.purple {
+  color: #b14bc9; }
+
+.xuanxiang .inner .neili .biaomin .padding input.purple {
+  color: #b14bc9; }
+
+.input1.purple, .input2.purple, .input3.purple {
+  color: #b14bc9; }
+
+.line1-list .line1 .xian-top1.purple, .line1-list .line1 .xian-bottom1.purple, .line1-list .line1 .bgcolor.purple {
+  background: #b14bc9; }
+
+.color.green {
+  background-position: 0px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.green {
+  color: #49bf1f; }
+
+.xuanxiang .inner .neili .biaomin .padding input.green {
+  color: #49bf1f; }
+
+.input1.green, .input2.green, .input3.green {
+  color: #49bf1f; }
+
+.line1-list .line1 .xian-top1.green, .line1-list .line1 .xian-bottom1.green, .line1-list .line1 .bgcolor.green {
+  background: #49bf1f; }
+
+.color.blue {
+  background-position: -51px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.blue {
+  color: #1badf8; }
+
+.xuanxiang .inner .neili .biaomin .padding input.blue {
+  color: #1badf8; }
+
+.input1.blue, .input2.blue, .input3.blue {
+  color: #1badf8; }
+
+.line1-list .line1 .xian-top1.blue, .line1-list .line1 .xian-bottom1.blue, .line1-list .line1 .bgcolor.blue {
+  background: #1badf8; }
+
+.color.yellow {
+  background-position: -85px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.yellow {
+  color: #e0ac00; }
+
+.xuanxiang .inner .neili .biaomin .padding input.yellow {
+  color: #e0ac00; }
+
+.input1.yellow, .input2.yellow, .input3.yellow {
+  color: #e0ac00; }
+
+.line1-list .line1 .xian-top1.yellow, .line1-list .line1 .xian-bottom1.yellow, .line1-list .line1 .bgcolor.yellow {
+  background: #e0ac00; }
+
+.color.brown {
+  background-position: -133px -549px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.brown {
+  color: #a2845e; }
+
+.xuanxiang .inner .neili .biaomin .padding input.brown {
+  color: #a2845e; }
+
+.input1.brown, .input2.brown, .input3.brown {
+  color: #a2845e; }
+
+.line1-list .line1 .xian-top1.brown, .line1-list .line1 .xian-bottom1.brown, .line1-list .line1 .bgcolor.brown {
+  background: #a2845e; }
+
+.color.red {
+  background-position: -68px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.red {
+  color: #ff2968; }
+
+.xuanxiang .inner .neili .biaomin .padding input.red {
+  color: #ff2968; }
+
+.input1.red, .input2.red, .input3.red {
+  color: #ff2968; }
+
+.line1-list .line1 .xian-top1.red, .line1-list .line1 .xian-bottom1.red, .line1-list .line1 .bgcolor.red {
+  background: #ff2968; }
+
+.color.orange {
+  background-position: -102px -571px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.content.orange {
+  color: #ff7f00; }
+
+.xuanxiang .inner .neili .biaomin .padding input.orange {
+  color: #ff7f00; }
+
+.input1.orange, .input2.orange, .input3.orange {
+  color: #ff7f00; }
+
+.line1-list .line1 .xian-top1.orange, .line1-list .line1 .xian-bottom1.orange, .line1-list .line1 .bgcolor.orange {
+  background: #ff7f00; }
+
+.in-color.purple {
+  background-position: 0px -231px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.green {
+  background-position: 0px -256px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.blue {
+  background-position: 0px -281px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.yellow {
+  background-position: 0px -306px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.brown {
+  background-position: 0px -331px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.red {
+  background-position: 0px -356px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.in-color.orange {
+  background-position: 0px -381px;
+  background-image: url(../img/stylesheet-1.png);
+  background-repeat: no-repeat; }
+
+.state2.purple {
+  background-position: -64px -401px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.green {
+  background-position: -74px -359px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.blue {
+  background-position: 0px -433px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.yellow {
+  background-position: -32px -465px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.brown {
+  background-position: -32px -433px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.red {
+  background-position: -96px -433px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state2.orange {
+  background-position: -136px -235px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.purple {
+  background-position: -128px -401px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.green {
+  background-position: -136px -199px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.blue {
+  background-position: -106px -359px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.yellow {
+  background-position: -128px -433px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.brown {
+  background-position: -136px -167px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.red {
+  background-position: -64px -433px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.state1.orange {
+  background-position: 0px -401px;
+  background-image: url(../img/packed-5.png);
+  background-repeat: no-repeat; }
+
+.body {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  background-image: url(../img/packed-4.png);
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+  .body .body-left {
+    width: 389px;
+    float: left;
+    height: 100%;
+    background: #383836; }
+    .body .body-left .left-head {
+      width: 100%;
+      height: 44px;
+      border-bottom: 1px solid #1a1a1a; }
+      .body .body-left .left-head .remind {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .body .body-left .left-head .remind .remind-inner {
+          position: absolute;
+          left: 13px;
+          right: 0px;
+          top: -6px;
+          bottom: 0px;
+          height: 44px;
+          width: 179px;
+          margin-left: -1px;
+          margin-top: 1px; }
+          .body .body-left .left-head .remind .remind-inner label {
+            line-height: 41px;
+            left: 63px;
+            margin-top: -15px;
+            top: 50%;
+            font-size: 21px;
+            position: absolute;
+            color: #999;
+            cursor: pointer; }
+            .body .body-left .left-head .remind .remind-inner label:hover {
+              color: #bfbfbf; }
+          .body .body-left .left-head .remind .remind-inner .iclond {
+            background-image: url(../img/packed-5.png);
+            background-position: 0px -588px;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 56px;
+            height: 16px;
+            top: 20px; }
+          .body .body-left .left-head .remind .remind-inner .xiala {
+            background-image: url(../img/packed-5.png);
+            background-position: -155px -647px;
+            background-repeat: no-repeat;
+            position: absolute;
+            width: 11px;
+            height: 7px;
+            top: 55%;
+            right: 14px; }
+        .body .body-left .left-head .remind .add {
+          position: absolute;
+          right: 12px;
+          width: 23px;
+          top: 10px;
+          height: 23px;
+          cursor: pointer; }
+          .body .body-left .left-head .remind .add .add-img {
+            position: absolute;
+            background-image: url(../img/packed-5.png);
+            background-position: -46px -526px;
+            background-repeat: no-repeat;
+            height: 23px;
+            width: 23px;
+            left: 0px;
+            top: 0px; }
+    .body .body-left .left-body {
+      width: 389px;
+      min-height: 660px;
+      position: absolute;
+      left: 0;
+      top: 45px; }
+      .body .body-left .left-body .list {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        height: 505px;
+        width: 100%; }
+        .body .body-left .left-body .list .plan {
+          width: 100%;
+          height: 45px;
+          position: absolute;
+          z-index: 1;
+          overflow: visible;
+          background-repeat: repeat; }
+          .body .body-left .left-body .list .plan.active {
+            background: #2d2d2b; }
+          .body .body-left .left-body .list .plan .plan-inner {
+            position: absolute;
+            left: 4px;
+            top: 0; }
+            .body .body-left .left-body .list .plan .plan-inner .clock {
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              height: 42px;
+              width: 42px;
+              background-image: url(../img/packed-5.png);
+              background-position: 0px -359px;
+              background-repeat: no-repeat; }
+            .body .body-left .left-body .list .plan .plan-inner label {
+              position: absolute;
+              height: 24px;
+              line-height: 24px;
+              width: 301px;
+              top: 7px;
+              left: 42px;
+              overflow: hidden !important;
+              text-overflow: ellipsis !important;
+              white-space: nowrap !important;
+              font-size: 17px;
+              color: #fff;
+              display: block; }
+        .body .body-left .left-body .list .lists {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 45px;
+          bottom: 0;
+          min-height: 660px;
+          overflow: auto; }
+          .body .body-left .left-body .list .lists .list1 {
+            height: 44px;
+            width: 100%;
+            position: relative; }
+            .body .body-left .left-body .list .lists .list1 .active {
+              background: #2d2d2b; }
+            .body .body-left .left-body .list .lists .list1 .list1-inner {
+              left: 0px;
+              right: 0px;
+              top: 0px;
+              bottom: 0px; }
+              .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong {
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                top: 0px;
+                bottom: 0px; }
+                .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong .color {
+                  position: absolute;
+                  left: 12px;
+                  top: 12px;
+                  height: 17px;
+                  width: 17px; }
+                .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong .title, .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong input {
+                  position: absolute;
+                  height: 24px;
+                  line-height: 24px;
+                  top: 7px;
+                  left: 42px;
+                  right: 42px;
+                  overflow: hidden !important;
+                  text-overflow: ellipsis !important;
+                  white-space: nowrap !important;
+                  font-size: 17px;
+                  color: #fff; }
+                .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong input {
+                  background: transparent;
+                  border: none;
+                  outline-style: none; }
+                .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong .wifi {
+                  position: absolute;
+                  top: 9px;
+                  right: 10px;
+                  width: 23px;
+                  height: 23px;
+                  margin: 0px;
+                  cursor: pointer;
+                  background-image: url(../img/packed-5.png);
+                  background-position: -119px -497px;
+                  background-repeat: no-repeat; }
+                  .body .body-left .left-body .list .lists .list1 .list1-inner .list1-neirong .wifi:hover {
+                    background-position: 0px -526px; }
+
+.row-top {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: -2px;
+  height: 2px;
+  background-image: url(../img/packed-2.png);
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  display: none; }
+
+.row-bottom {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 2px;
+  background-image: url(../img/packed-1.png);
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  left: 44px; }
+
+.body-right {
+  position: absolute;
+  left: 389px;
+  top: 0px;
+  bottom: 0px;
+  min-width: 950px; }
+  .body-right .search {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 44px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.35); }
+    .body-right .search .search-left {
+      left: 0px;
+      width: 50%;
+      top: 0px;
+      bottom: 0px;
+      position: absolute; }
+      .body-right .search .search-left .padding {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 3px;
+        left: 45px; }
+        .body-right .search .search-left .padding .padding-zi {
+          top: 11px;
+          position: absolute;
+          font-size: 19px;
+          color: rgba(0, 0, 0, 0.3);
+          text-align: center;
+          line-height: 22px; }
+        .body-right .search .search-left .padding .sou {
+          position: absolute;
+          top: 1px;
+          font-size: 19px;
+          color: #333;
+          left: 0px;
+          width: 100%;
+          bottom: 0px;
+          right: 0px;
+          display: block;
+          background: transparent;
+          vertical-align: middle;
+          border: none;
+          outline: none; }
+      .body-right .search .search-left .logo {
+        position: absolute;
+        left: 3px;
+        width: 42px;
+        top: 2px;
+        height: 42px; }
+        .body-right .search .search-left .logo .logo-img {
+          position: absolute;
+          left: 11px;
+          width: 24px;
+          top: 8px;
+          height: 24px;
+          background-image: url(../img/packed-5.png);
+          background-position: -138px -359px;
+          background-repeat: no-repeat; }
+    .body-right .search .search-right {
+      position: absolute;
+      right: 2px;
+      top: 0px;
+      bottom: 0px;
+      width: 136px; }
+      .body-right .search .search-right .user {
+        position: absolute;
+        left: 0px;
+        right: 55px;
+        top: -6px;
+        bottom: 0px; }
+        .body-right .search .search-right .user label {
+          line-height: 31px;
+          text-align: right;
+          padding-right: 18px;
+          font-size: 21px;
+          margin-top: -15px;
+          top: 50%;
+          position: absolute; }
+        .body-right .search .search-right .user .xiala {
+          background-image: url(../img/packed-5.png);
+          background-position: -62px -391px;
+          background-repeat: no-repeat;
+          position: absolute;
+          width: 11px;
+          height: 7px;
+          top: 50%;
+          margin-top: -3px;
+          right: 0; }
+      .body-right .search .search-right .shuxian {
+        position: absolute;
+        margin-top: -11px;
+        right: 44px;
+        width: 1px;
+        top: 50%;
+        height: 22px;
+        background-color: #e5e5e5; }
+      .body-right .search .search-right .help {
+        position: absolute;
+        right: 0px;
+        width: 44px;
+        top: 0px;
+        bottom: 0px; }
+        .body-right .search .search-right .help .img {
+          position: absolute;
+          width: 22px;
+          height: 22px;
+          top: 50%;
+          left: 50%;
+          margin-top: -11px;
+          margin-left: -11px;
+          background-image: url(../img/packed-5.png);
+          background-position: -137px -526px;
+          background-repeat: no-repeat; }
+  .body-right .content {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 69px;
+    bottom: 0px; }
+    .body-right .content .content-inner {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 0px;
+      bottom: 0px; }
+      .body-right .content .content-inner .cont-title {
+        position: absolute;
+        left: 28px;
+        right: 0px;
+        top: 0px;
+        height: 62px; }
+        .body-right .content .content-inner .cont-title .list-name {
+          position: absolute;
+          left: 0px;
+          right: 200px;
+          top: 0px;
+          bottom: 10px;
+          white-space: nowrap !important;
+          font-size: 40px;
+          line-height: 1.2;
+          cursor: default; }
+        .body-right .content .content-inner .cont-title .select {
+          position: absolute;
+          right: 30px;
+          top: 17px;
+          height: 27px;
+          width: 39px;
+          cursor: pointer;
+          font-size: 15px; }
+          .body-right .content .content-inner .cont-title .select label {
+            line-height: 29px;
+            margin-top: -13px;
+            cursor: pointer;
+            top: 50%;
+            position: absolute;
+            font-size: 19px; }
+            .body-right .content .content-inner .cont-title .select label:hover {
+              color: #6a157d; }
+      .body-right .content .content-inner .content-body {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 56px;
+        bottom: 0px; }
+        .body-right .content .content-inner .content-body .hengxian {
+          position: absolute;
+          left: 30px;
+          right: 0px;
+          height: 2px;
+          background-image: url(../img/packed-3.png);
+          background-position: 0px 0px;
+          background-repeat: repeat;
+          top: 0px;
+          z-index: 5; }
+        .body-right .content .content-inner .content-body .limian {
+          position: absolute;
+          left: 0px;
+          right: 0px;
+          top: 0px;
+          bottom: 0px; }
+          .body-right .content .content-inner .content-body .limian .xianshi {
+            position: absolute;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px; }
+            .body-right .content .content-inner .content-body .limian .xianshi .complete {
+              right: 0px;
+              top: 0px;
+              height: 52px;
+              left: 30px;
+              position: absolute; }
+              .body-right .content .content-inner .content-body .limian .xianshi .complete .background {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                border: 0px;
+                background: none; }
+              .body-right .content .content-inner .content-body .limian .xianshi .complete .yiwancheng {
+                position: absolute;
+                top: 16px;
+                left: 51px;
+                margin: 0px;
+                overflow: hidden !important;
+                text-overflow: ellipsis !important;
+                white-space: nowrap !important;
+                color: #999;
+                font-size: 19px;
+                cursor: default; }
+              .body-right .content .content-inner .content-body .limian .xianshi .complete .button {
+                left: 0px;
+                right: 0px;
+                top: 0px;
+                height: 45px;
+                position: absolute; }
+                .body-right .content .content-inner .content-body .limian .xianshi .complete .button .img {
+                  position: absolute;
+                  cursor: pointer;
+                  left: 11px;
+                  top: 16px;
+                  margin: 0px;
+                  width: 23px;
+                  height: 23px;
+                  background-image: url(../img/packed-5.png);
+                  background-position: -23px -526px;
+                  background-repeat: no-repeat; }
+                  .body-right .content .content-inner .content-body .limian .xianshi .complete .button .img.huan {
+                    background-position: -96px -497px; }
+              .body-right .content .content-inner .content-body .limian .xianshi .complete .clear {
+                position: absolute;
+                right: 30px;
+                width: 141px;
+                top: 16px;
+                bottom: 10px;
+                cursor: pointer; }
+                .body-right .content .content-inner .content-body .limian .xianshi .complete .clear label {
+                  font-size: 20px;
+                  text-align: right;
+                  line-height: 24px;
+                  top: 0px;
+                  position: relative;
+                  vertical-align: top; }
+              .body-right .content .content-inner .content-body .limian .xianshi .complete .xian {
+                left: 0px;
+                right: 0px;
+                top: 52px;
+                height: 2px;
+                position: absolute; }
+                .body-right .content .content-inner .content-body .limian .xianshi .complete .xian .xian-img {
+                  position: absolute;
+                  left: 30px;
+                  right: 0px;
+                  height: 2px;
+                  background-image: url(../img/packed-3.png);
+                  background-position: 0px 0px;
+                  background-repeat: repeat;
+                  bottom: 0px; }
+
+.new-box {
+  width: 100%;
+  height: 52px; }
+  .new-box .new-ul {
+    width: 100%;
+    height: 100%; }
+
+.new {
+  width: 100%;
+  height: 52px;
+  position: relative; }
+  .new .xian-top {
+    position: absolute;
+    right: 0px;
+    height: 2px;
+    background-image: url(../img/packed-3.png);
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    top: 0px;
+    left: 81px; }
+  .new .xian-bottom {
+    position: absolute;
+    right: 0px;
+    height: 2px;
+    background-image: url(../img/packed-3.png);
+    background-position: 0px 0px;
+    background-repeat: repeat;
+    bottom: 0px;
+    left: 81px; }
+  .new .xian-nei {
+    position: absolute;
+    top: 14px;
+    left: 81px;
+    color: #999;
+    font-size: 19px; }
+
+.xq-box {
+  left: 0px;
+  right: 0px;
+  top: 54px;
+  bottom: 0px;
+  min-height: 198px;
+  position: absolute;
+  background: red; }
+
+.xuanxiang {
+  position: absolute;
+  left: 900px;
+  width: 355px;
+  top: 15px;
+  height: 226px;
+  z-index: 100;
+  background: red;
+  display: none; }
+  .xuanxiang .jian {
+    position: absolute;
+    right: -28px;
+    top: 85px;
+    margin-top: -8px;
+    margin-left: -17px;
+    background-image: url(../img/packed-5.png);
+    background-position: -80px -604px;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 15px;
+    z-index: 2;
+    transform: rotate(270deg); }
+  .xuanxiang .inner {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    z-index: 1; }
+    .xuanxiang .inner .neili {
+      left: 18px;
+      right: 21px;
+      top: 19px;
+      bottom: 4px;
+      position: absolute; }
+      .xuanxiang .inner .neili .biaomin {
+        position: absolute;
+        left: 2px;
+        right: 0px;
+        top: 0px;
+        height: 42px;
+        width: 314px;
+        color: #1a1a1a;
+        border: 0px none;
+        vertical-align: top;
+        outline: none; }
+        .xuanxiang .inner .neili .biaomin .border {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          bottom: 0px;
+          right: 0px;
+          border: 1px solid #d9d9d9;
+          border-radius: 2px; }
+        .xuanxiang .inner .neili .biaomin .padding {
+          left: 10px;
+          right: 10px;
+          top: 2px;
+          bottom: 2px;
+          position: absolute; }
+          .xuanxiang .inner .neili .biaomin .padding input {
+            margin-top: 1px;
+            font-size: 25px;
+            outline: none;
+            border: none; }
+      .xuanxiang .inner .neili .list-color {
+        position: absolute;
+        left: 2px;
+        right: 0px;
+        top: 63px;
+        height: 22px;
+        color: #1a1a1a;
+        line-height: 19px;
+        font-size: 15px;
+        text-align: left;
+        white-space: pre-line; }
+      .xuanxiang .inner .neili .color-ji {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 97px;
+        height: 33px; }
+        .xuanxiang .inner .neili .color-ji .circle {
+          height: 33px;
+          width: 33px;
+          float: left;
+          margin-left: 10px; }
+          .xuanxiang .inner .neili .color-ji .circle .in-color {
+            width: 25px;
+            height: 25px;
+            margin-top: 4px;
+            margin-left: 4px; }
+      .xuanxiang .inner .neili .caozuo {
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        height: 35px;
+        position: absolute; }
+        .xuanxiang .inner .neili .caozuo .delete {
+          margin-top: -17.5px;
+          left: 0px;
+          width: 130px;
+          top: 50%;
+          height: 35px;
+          text-align: left;
+          position: absolute;
+          color: #ff3b30;
+          cursor: pointer; }
+        .xuanxiang .inner .neili .caozuo .quxiao {
+          position: absolute;
+          margin-top: -17.5px;
+          right: 0px;
+          width: 208px;
+          top: 50%;
+          height: 35px;
+          text-align: right; }
+          .xuanxiang .inner .neili .caozuo .quxiao .qu {
+            position: absolute;
+            right: 83px;
+            width: auto;
+            bottom: 0px;
+            height: 25px;
+            font-size: 17px;
+            cursor: pointer;
+            color: #007aff;
+            top: 0px; }
+        .xuanxiang .inner .neili .caozuo span {
+          right: 55px;
+          width: auto;
+          bottom: 0px;
+          height: 35px;
+          position: absolute; }
+          .xuanxiang .inner .neili .caozuo span span {
+            height: 25px;
+            border-color: rgba(0, 0, 0, 0.1);
+            left: 50%;
+            width: 1px;
+            border-left: 1px #ccc solid;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            background-color: #fefefe; }
+        .xuanxiang .inner .neili .caozuo .wan {
+          position: absolute;
+          right: 0px;
+          width: auto;
+          bottom: 10px;
+          height: 25px;
+          cursor: pointer;
+          font-size: 17px;
+          font-weight: 600;
+          color: #007aff; }
+
+.xuanxiang:before, .xiangxi-box:before {
+  top: -4px;
+  left: -4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 8px;
+  content: '';
+  background-color: white;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15), 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%; }
+
+.xiangxi-box {
+  left: 905px;
+  width: 325px;
+  top: 15px;
+  height: 305px;
+  position: absolute;
+  z-index: 50;
+  background: red;
+  display: none; }
+  .xiangxi-box .sanjiao {
+    right: -28px;
+    margin-top: -8px;
+    top: 234px;
+    position: absolute;
+    margin-left: -17px;
+    background-image: url(../img/packed-5.png);
+    background-position: -80px -604px;
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 15px;
+    z-index: 2;
+    transform: rotate(270deg); }
+  .xiangxi-box .inner {
+    position: absolute;
+    left: 20px;
+    right: 21px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 5px;
+    z-index: 1; }
+    .xiangxi-box .inner .xx {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      top: 18px;
+      height: 28px;
+      font-weight: 600;
+      color: #333;
+      font-size: 19px; }
+    .xiangxi-box .inner .xiang {
+      left: 0px;
+      right: 0px;
+      bottom: 54px;
+      height: 144px;
+      top: 54px;
+      position: absolute; }
+      .xiangxi-box .inner .xiang .lie-biao {
+        position: absolute;
+        left: 0px;
+        width: 148px;
+        top: 0px;
+        height: 20px; }
+      .xiangxi-box .inner .xiang .youxian {
+        position: absolute;
+        left: 174px;
+        width: 148px;
+        top: 0px;
+        height: 20px; }
+      .xiangxi-box .inner .xiang .xiakuang {
+        width: 148px;
+        top: 24px;
+        bottom: 0px;
+        position: absolute;
+        min-width: 68px;
+        height: 26px;
+        max-height: 26px;
+        min-height: 26px;
+        padding-right: 22px;
+        cursor: default;
+        border: 1px solid #d9d9d9;
+        border-radius: 3px;
+        box-shadow: 0px 1px 1px #fafafa;
+        background-color: #fafafa; }
+        .xiangxi-box .inner .xiang .xiakuang label {
+          line-height: 25px;
+          font-size: 15px;
+          color: #474747;
+          text-align: left;
+          margin-left: 4px;
+          margin-right: 4px; }
+        .xiangxi-box .inner .xiang .xiakuang :after {
+          content: '';
+          position: absolute;
+          top: 4px;
+          right: 6px;
+          width: 16px;
+          height: 16px;
+          background-image: url(../img/packed-5.png);
+          background-position: -64px -604px;
+          background-repeat: no-repeat; }
+      .xiangxi-box .inner .xiang .xia1 {
+        left: 1px; }
+      .xiangxi-box .inner .xiang .xia2 {
+        left: 169px;
+        width: 115px; }
+      .xiangxi-box .inner .xiang .beiwang {
+        left: 1px;
+        right: 0px;
+        top: 71px;
+        height: 70px;
+        position: absolute;
+        border: 1px solid #d9d9d9;
+        border-radius: 2px; }
+    .xiangxi-box .inner .zuihou {
+      position: absolute;
+      left: 0px;
+      right: 0px;
+      bottom: 54px;
+      height: 37px; }
+      .xiangxi-box .inner .zuihou .shan {
+        position: absolute;
+        left: 0px;
+        width: 50%;
+        top: 0px;
+        bottom: 0px;
+        text-align: left;
+        cursor: pointer;
+        color: #ff3b30;
+        font-size: 17px; }
+      .xiangxi-box .inner .zuihou .cheng {
+        position: absolute;
+        right: 1px;
+        width: 50%;
+        top: 0px;
+        bottom: 0px;
+        text-align: right;
+        cursor: pointer;
+        color: #007aff;
+        font-size: 17px;
+        font-weight: 600; }
+
+.clearall {
+  position: absolute;
+  margin-top: -95px;
+  margin-left: -225px;
+  left: 50%;
+  width: 450px;
+  top: 50%;
+  height: 170px;
+  z-index: 70;
+  display: none; }
+  .clearall:before {
+    position: absolute;
+    top: -5px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    content: '';
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15), 0px 0px 1px 1px rgba(0, 0, 0, 0.1); }
+  .clearall .inner {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px; }
+    .clearall .inner .tu {
+      position: absolute;
+      left: 25px;
+      width: 68px;
+      top: 19px;
+      height: 65px;
+      background-image: url(../img/packed-5.png);
+      background-position: -68px -167px;
+      background-repeat: no-repeat; }
+    .clearall .inner .tishi {
+      left: 106px;
+      right: 25px;
+      top: 25px;
+      height: 22px;
+      position: absolute;
+      word-wrap: break-word;
+      font-size: 19px;
+      line-height: 1.2em;
+      font-weight: normal;
+      color: #313131; }
+    .clearall .inner .jinyibu {
+      left: 106px;
+      right: 25px;
+      top: 54px;
+      height: 42px;
+      position: absolute;
+      font-size: 17px;
+      line-height: 21px;
+      color: #474747;
+      overflow: visible;
+      word-wrap: break-word; }
+    .clearall .inner .shifou {
+      left: 0px;
+      right: 0px;
+      bottom: 4px;
+      height: 44px;
+      position: absolute; }
+      .clearall .inner .shifou .remove {
+        left: 240px;
+        width: auto;
+        top: 5px;
+        bottom: 0px;
+        position: absolute;
+        cursor: pointer;
+        line-height: 44px;
+        color: #167efb;
+        font-size: 17px;
+        text-align: center; }
+        .clearall .inner .shifou .remove:after {
+          background: #e5e5e5;
+          width: 1px;
+          height: 25px;
+          content: '';
+          display: block;
+          position: absolute;
+          top: 13px;
+          left: 50px; }
+      .clearall .inner .shifou .qingwan {
+        width: 164px;
+        height: 44px;
+        position: absolute;
+        top: 15px;
+        bottom: 0px;
+        right: -18px;
+        font-weight: 600;
+        color: #167efb;
+        cursor: pointer;
+        font-size: 17px; }
+
+.body .body-left .left-head .remind .add:hover .add-img {
+  background-image: url(../img/packed-5.png);
+  background-position: -92px -526px;
+  background-repeat: no-repeat;
+  height: 23px;
+  width: 23px;
+  left: 0px;
+  top: 0px;
+  position: absolute; }
+
+.zhezhao {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  min-width: 950px;
+  min-height: 550px;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.25);
+  z-index: 60;
+  display: none; }
+
+.a {
+  width: 200px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 200; }
+  .a .color {
+    height: 100%;
+    float: left;
+    width: 50px; }
+
+.line1-box {
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.line1-list {
+  width: 100%;
+  height: auto; }
+  .line1-list .line1 {
+    width: 100%;
+    height: 52px;
+    position: relative; }
+    .line1-list .line1 .xian-top {
+      position: absolute;
+      left: 30px;
+      right: 0px;
+      height: 1px;
+      background-image: url(../img/packed-3.png);
+      background-position: 0px 0px;
+      background-repeat: repeat;
+      top: 0px;
+      z-index: 5; }
+    .line1-list .line1 .xian-top1 {
+      position: absolute;
+      right: 0px;
+      height: 1px;
+      top: 0px;
+      left: 0px;
+      background: transparent;
+      z-index: 10; }
+    .line1-list .line1 .xian-bottom {
+      position: absolute;
+      left: 30px;
+      right: 0px;
+      height: 1px;
+      background-image: url(../img/packed-3.png);
+      background-position: 0px 0px;
+      background-repeat: repeat;
+      overflow: visible;
+      bottom: -2px;
+      z-index: 5; }
+    .line1-list .line1 .xian-bottom1 {
+      position: absolute;
+      right: 0px;
+      height: 1px;
+      bottom: -2px;
+      left: 0px;
+      background: transparent;
+      z-index: 10; }
+    .line1-list .line1 .bgcolor {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 54px;
+      background: transparent;
+      z-index: 1;
+      opacity: 0.1; }
+    .line1-list .line1 .xian-li {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 5; }
+      .line1-list .line1 .xian-li a {
+        position: absolute;
+        top: 12px;
+        left: 36px;
+        height: 32px;
+        width: 32px;
+        cursor: pointer;
+        border: transparent !important; }
+        .line1-list .line1 .xian-li a .state {
+          height: 32px;
+          width: 32px;
+          margin: 0px;
+          border: none; }
+      .line1-list .line1 .xian-li label {
+        position: absolute;
+        right: 106px;
+        font-size: 19px;
+        line-height: 24px;
+        left: 81px;
+        top: 17px;
+        height: auto; }
+      .line1-list .line1 .xian-li .hidden {
+        left: 81px;
+        top: 24px;
+        position: absolute;
+        height: auto;
+        margin-top: -14px;
+        padding-top: 4px;
+        padding-right: 20px; }
+        .line1-list .line1 .xian-li .hidden label {
+          overflow: hidden !important;
+          text-overflow: ellipsis !important;
+          white-space: nowrap !important;
+          color: #333;
+          font-size: 19px;
+          line-height: 24px;
+          height: auto;
+          width: auto;
+          display: inline;
+          position: static;
+          top: 50%;
+          margin-top: -9px;
+          left: 4px;
+          right: 4px;
+          display: none; }
+      .line1-list .line1 .xian-li .mes {
+        position: absolute;
+        right: 25px;
+        top: 17px;
+        display: none; }
+        .line1-list .line1 .xian-li .mes label {
+          margin: 0px;
+          overflow: hidden !important;
+          text-overflow: ellipsis !important;
+          white-space: nowrap !important;
+          font-size: 19px;
+          height: 21px;
+          text-align: right;
+          left: 0px;
+          right: 0px;
+          position: relative;
+          top: 50%; }
+
+.kongbai {
+  width: 100%;
+  height: 25px;
+  background: transparent; }
+
+.line2-box {
+  width: 100%;
+  height: auto; }
+
+.xiangqing-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 54px;
+  bottom: 0;
+  height: auto; }
+  .xiangqing-box .xiangqing {
+    width: 100%;
+    height: auto; }
+    .xiangqing-box .xiangqing .date {
+      width: 100%;
+      height: 42px;
+      position: relative; }
+      .xiangqing-box .xiangqing .date label {
+        font-weight: 600;
+        white-space: nowrap !important;
+        font-size: 15px;
+        color: #999;
+        top: 17px;
+        position: absolute; }
+      .xiangqing-box .xiangqing .date .xian-top {
+        position: absolute;
+        right: 0px;
+        height: 1px;
+        background-image: url(../img/packed-3.png);
+        background-position: 0px 0px;
+        background-repeat: repeat;
+        bottom: -1px;
+        left: 30px; }
+
+.input1 {
+  position: absolute;
+  right: 106px;
+  font-size: 19px;
+  line-height: 24px;
+  left: 81px;
+  top: 17px;
+  height: auto;
+  outline: none;
+  border: none;
+  background: transparent; }
+
+.input2 {
+  position: absolute;
+  right: 106px;
+  font-size: 19px;
+  line-height: 24px;
+  left: 81px;
+  top: 17px;
+  height: auto;
+  background: transparent;
+  border: none;
+  outline: none; }
+
+.input3 {
+  position: absolute;
+  top: 14px;
+  left: 81px;
+  color: #999;
+  font-size: 19px;
+  background: transparent;
+  border: none;
+  outline: none; }
