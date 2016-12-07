@@ -123,8 +123,8 @@ var app=angular.module("remainder",[]);
              id:1001,
              theme:"purple",
              todos:[
-             {name:"三国",state:0,id:1},
-             {name:"水浒",state:1,id:2}
+             {name:"看书",state:0,id:1},
+             {name:"听歌",state:1,id:2}
              ]
 			}
             
